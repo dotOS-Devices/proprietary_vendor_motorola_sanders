@@ -145,6 +145,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/etc/permissions/mot_dtv_permissions.xml:system/etc/permissions/mot_dtv_permissions.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.motorola.hardware.dtv.xml:system/etc/permissions/com.motorola.hardware.dtv.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.google.android.tv.installed.xml:system/etc/permissions/com.google.android.tv.installed.xml \
+    vendor/motorola/sanders/proprietary/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_libpermissions.xml \
     vendor/motorola/sanders/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/motorola/sanders/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/sanders/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin \
@@ -1322,7 +1323,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/motorola/sanders/proprietary/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar:system/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar \
     vendor/motorola/sanders/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
-    vendor/motorola/sanders/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service.rc
+    vendor/motorola/sanders/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service.rc \
+    vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/motorola/sanders/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
+    vendor/motorola/sanders/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 
 # DTV Libs
 PRODUCT_COPY_FILES += \
@@ -1331,9 +1335,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/etc/permissions/com.google.android.tv.installed.xml:system/etc/permissions/com.google.android.tv.installed.xml \
     vendor/motorola/sanders/proprietary/lib/libdtvhal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdtvhal.so \
     vendor/motorola/sanders/proprietary/lib/libdtvtuner.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdtvtuner.so \
-    vendor/motorola/sanders/proprietary/lib64/libdtvtuner.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdtvtuner.so \
-    vendor/motorola/sanders/proprietary/lib64/libdtvhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdtvhal.so 
-    
+    vendor/motorola/sanders/proprietary/lib64/libdtvtuner.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdtvtuner.so
+
 # WFD
 PRODUCT_COPY_FILES += \
      vendor/motorola/sanders/proprietary/bin/wfdservice:system/bin/wfdservice \
