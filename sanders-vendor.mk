@@ -1402,6 +1402,81 @@ PRODUCT_COPY_FILES += \
      vendor/motorola/sanders/proprietary/vendor/lib64/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal_proprietary.so \
      vendor/motorola/sanders/proprietary/vendor/lib64/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdhdcpcp.so
 
+#MotoCam
+PRODUCT_COPY_FILES += \
+    vendor/motorola/sanders/proprietary/app/MediaShortcuts/MediaShortcuts.apk:system/app/MediaShortcuts/MediaShortcuts.apk \
+    vendor/motorola/sanders/proprietary/app/MotoCameraTuner/MotoCameraTuner.apk:system/app/MotoCameraTuner/MotoCameraTuner.apk \
+    vendor/motorola/sanders/proprietary/app/MotoPhotoEditor/MotoPhotoEditor.apk:system/app/MotoPhotoEditor/MotoPhotoEditor.apk \
+    vendor/motorola/sanders/proprietary/app/MotoPhotoEditor/lib/arm64/libdualcameraddm.so:system/app/MotoPhotoEditor/MotoPhotoEditor/lib/arm64/libdualcameraddm.so \
+    vendor/motorola/sanders/proprietary/app/MotoPhotoEditor/lib/arm64/libjni_dualcamera.so:system/app/MotoPhotoEditor/lib/arm64/libjni_dualcamera.so \
+    vendor/motorola/sanders/proprietary/app/MotoSignatureApp/MotoSignatureApp.apk:system/app/MotoSignatureApp/MotoSignatureApp.apk \
+    vendor/motorola/sanders/proprietary/etc/permissions/com.motorola.camera2.xml:system/etc/permissions/com.motorola.camera2.xml \
+    vendor/motorola/sanders/proprietary/etc/permissions/com.motorola.motosignature.xml:system/etc/permissions/com.motorola.motosignature.xml \
+    vendor/motorola/sanders/proprietary/etc/permissions/com.motorola.photoeditor.xml:system/etc/permissions/com.motorola.photoeditor.xml \
+    vendor/motorola/sanders/proprietary/etc/permissions/privapp-permissions-com.motorola.camera2.xml:system/etc/permissions/privapp-permissions-com.motorola.camera2.xml \
+    vendor/motorola/sanders/proprietary/framework/com.motorola.motosignature.jar:system/framework/com.motorola.motosignature.jar \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/Camera_7.2.32.61.apk:system/priv-app/MotCamera2/Camera_7.2.32.61.apk \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libarcsoft_agegender_estimation.so:system/priv-app/MotCamera2/lib/arm/libarcsoft_agegender_estimation.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libarcsoft_beautyshot.so:system/priv-app/MotCamera2/lib/arm/libarcsoft_beautyshot.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libarcsoft_dualcam_refocus.so:system/priv-app/MotCamera2/lib/arm/libarcsoft_dualcam_refocus.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libbacktrace.so:system/priv-app/MotCamera2/lib/arm/libbacktrace.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libbase.so:system/priv-app/MotCamera2/lib/arm/libbase.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libbsDepthWrapper_01_00_000.so:system/priv-app/MotCamera2/lib/arm/libbsDepthWrapper_01_00_000.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libc++.so:system/priv-app/MotCamera2/lib/arm/libc++.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libc++_shared.so:system/priv-app/MotCamera2/lib/arm/libc++_shared.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libclearsight.so:system/priv-app/MotCamera2/lib/arm/libclearsight.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libclearsight_wrapper_01_00_000.so:system/priv-app/MotCamera2/lib/arm/libclearsight_wrapper_01_00_000.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libcutils.so:system/priv-app/MotCamera2/lib/arm/libcutils.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libddm_wrapper_01_00_000.so:system/priv-app/MotCamera2/lib/arm/libddm_wrapper_01_00_000.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libDepthBokehEffect.so:system/priv-app/MotCamera2/lib/arm/libDepthBokehEffect.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libdualcameraddm.so:system/priv-app/MotCamera2/lib/arm/libdualcameraddm.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libFNVfbEngineHAL.so:system/priv-app/MotCamera2/lib/arm/libFNVfbEngineHAL.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libframe_stack_wrapper_morpho_v4.so:system/priv-app/MotCamera2/lib/arm/libframe_stack_wrapper_morpho_v4.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libframe_stack_wrapper_morpho_v5.so:system/priv-app/MotCamera2/lib/arm/libframe_stack_wrapper_morpho_v5.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libgif.so:system/priv-app/MotCamera2/lib/arm/libgif.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libjpeg.so:system/priv-app/MotCamera2/lib/arm/libjpeg.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/liblenovo_panorama.so:system/priv-app/MotCamera2/lib/arm/liblenovo_panorama.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/liblzma.so:system/priv-app/MotCamera2/lib/arm/liblzma.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libmcf.so:system/priv-app/MotCamera2/lib/arm/libmcf.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libmcf-common.so:system/priv-app/MotCamera2/lib/arm/libmcf-common.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libmcf-foundation2.so:system/priv-app/MotCamera2/lib/arm/libmcf-foundation2.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libmcf-jni.so:system/priv-app/MotCamera2/lib/arm/libmcf-jni.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libmcfutils.so:system/priv-app/MotCamera2/lib/arm/libmcfutils.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libMobileOcrEngine.so:system/priv-app/MotCamera2/lib/arm/libMobileOcrEngine.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libmorpho_cinema_graph.so:system/priv-app/MotCamera2/lib/arm//libmorpho_cinema_graph.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libmorpho_defocusface.so:system/priv-app/MotCamera2/lib/arm/libmorpho_defocusface.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libmorpho_easy_hdr.so:system/priv-app/MotCamera2/lib/arm/libmorpho_easy_hdr.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libmorpho_image_stab5.so:system/priv-app/MotCamera2/lib/arm/libmorpho_image_stab5.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libmorpho_image_stabilizer4.so:system/priv-app/MotCamera2/lib/arm/libmorpho_image_stabilizer4.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libmorpho_panorama_gp3.so:system/priv-app/MotCamera2/lib/arm/libmorpho_panorama_gp3.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libmorpho_sensor_fusion.so:system/priv-app/MotCamera2/lib/arm/libmorpho_sensor_fusion.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libmorpho_super_resolution.so:system/priv-app/MotCamera2/lib/arm/libmorpho_super_resolution.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libMotDoF.so:system/priv-app/MotCamera2/lib/arm/libMotDoF.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libmotioncore_01_00_000.so:system/priv-app/MotCamera2/lib/arm/libmotioncore_01_00_000.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libmpbase.so:system/priv-app/MotCamera2/lib/arm/libmpbase.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/liboffline_fd_wrapper_01_00_000.so:system/priv-app/MotCamera2/lib/arm/liboffline_fd_wrapper_01_00_000.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libopenssh.so:system/priv-app/MotCamera2/lib/arm/libopenssh.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/librefocus_image_wrapper_01_00_000.so:system/priv-app/MotCamera2/lib/arm/librefocus_image_wrapper_01_00_000.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libremosaic_tuning.so:system/priv-app/MotCamera2/lib/arm/libremosaic_tuning.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libremosaic_wrapper.so:system/priv-app/MotCamera2/lib/arm/libremosaic_wrapper.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libremosaiclib.so:system/priv-app/MotCamera2/lib/arm/libremosaiclib.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libSNPE.so:system/priv-app/MotCamera2/lib/arm/libSNPE.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libsnpe_adsp.so:system/priv-app/MotCamera2/lib/arm/libsnpe_adsp.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libsnpe_dsp_domains.so:system/priv-app/MotCamera2/lib/arm/libsnpe_dsp_domains.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libsnpe_dsp_domains_skel.so:system/priv-app/MotCamera2/lib/arm/libsnpe_dsp_domains_skel.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libsnpe_dsp_skel.so:system/priv-app/MotCamera2/lib/arm/libsnpe_dsp_skel.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libsnpe_dsp_v65_domains_skel.so:system/priv-app/MotCamera2/lib/arm/libsnpe_dsp_v65_domains_skel.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libsnpe-android.so:system/priv-app/MotCamera2/lib/arm/libsnpe-android.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libSNPExecutor.so:system/priv-app/MotCamera2/lib/arm/libSNPExecutor.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libsuper_resolution_wrapper_morpho_v2.so:system/priv-app/MotCamera2/lib/arm/libsuper_resolution_wrapper_morpho_v2.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libsymphony-cpu.so:system/priv-app/MotCamera2/lib/arm/libsymphony-cpu.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libsymphonypower.so:system/priv-app/MotCamera2/lib/arm/libsymphonypower.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libubifocus_wrapper_01_00_000.so:system/priv-app/MotCamera2/lib/arm/libubifocus_wrapper_01_00_000.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libunwind.so:system/priv-app/MotCamera2/lib/arm/libunwind.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libutils.so:system/priv-app/MotCamera2/lib/arm/libutils.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libzxing_01_00_000.so:system/priv-app/MotCamera2/lib/arm/libzxing_01_00_000.so \
+    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libzxingwrapper_01_00_000.so:system/priv-app/MotCamera2/lib/arm/libzxingwrapper_01_00_000.so
+
 PRODUCT_PACKAGES += \
     libqct_resampler \
     TimeService \
