@@ -1404,18 +1404,13 @@ PRODUCT_COPY_FILES += \
 
 #MotoCam
 PRODUCT_COPY_FILES += \
-    vendor/motorola/sanders/proprietary/app/MediaShortcuts/MediaShortcuts.apk:system/app/MediaShortcuts/MediaShortcuts.apk \
-    vendor/motorola/sanders/proprietary/app/MotoCameraTuner/MotoCameraTuner.apk:system/app/MotoCameraTuner/MotoCameraTuner.apk \
-    vendor/motorola/sanders/proprietary/app/MotoPhotoEditor/MotoPhotoEditor.apk:system/app/MotoPhotoEditor/MotoPhotoEditor.apk \
     vendor/motorola/sanders/proprietary/app/MotoPhotoEditor/lib/arm64/libdualcameraddm.so:system/app/MotoPhotoEditor/MotoPhotoEditor/lib/arm64/libdualcameraddm.so \
     vendor/motorola/sanders/proprietary/app/MotoPhotoEditor/lib/arm64/libjni_dualcamera.so:system/app/MotoPhotoEditor/lib/arm64/libjni_dualcamera.so \
-    vendor/motorola/sanders/proprietary/app/MotoSignatureApp/MotoSignatureApp.apk:system/app/MotoSignatureApp/MotoSignatureApp.apk \
     vendor/motorola/sanders/proprietary/etc/permissions/com.motorola.camera2.xml:system/etc/permissions/com.motorola.camera2.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.motorola.motosignature.xml:system/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.motorola.photoeditor.xml:system/etc/permissions/com.motorola.photoeditor.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/privapp-permissions-com.motorola.camera2.xml:system/etc/permissions/privapp-permissions-com.motorola.camera2.xml \
     vendor/motorola/sanders/proprietary/framework/com.motorola.motosignature.jar:system/framework/com.motorola.motosignature.jar \
-    vendor/motorola/sanders/proprietary/priv-app/MotCamera2/Camera_7.2.32.61.apk:system/priv-app/MotCamera2/Camera_7.2.32.61.apk \
     vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libarcsoft_agegender_estimation.so:system/priv-app/MotCamera2/lib/arm/libarcsoft_agegender_estimation.so \
     vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libarcsoft_beautyshot.so:system/priv-app/MotCamera2/lib/arm/libarcsoft_beautyshot.so \
     vendor/motorola/sanders/proprietary/priv-app/MotCamera2/lib/arm/libarcsoft_dualcam_refocus.so:system/priv-app/MotCamera2/lib/arm/libarcsoft_dualcam_refocus.so \
@@ -1509,5 +1504,9 @@ PRODUCT_PACKAGES += \
     DTVPlayer \
     DTVService \
     WfdService \
-    WfdCommon
-
+    WfdCommon \
+    MotCamera2 \
+    MediaShortcuts \
+    MotoCameraTuner \
+    MotoPhotoEditor \
+    MotoSignatureApp
