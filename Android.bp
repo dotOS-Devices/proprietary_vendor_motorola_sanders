@@ -252,12 +252,6 @@ dex_import {
 }
 
 dex_import {
-    name: "WfdCommon",
-    owner: "motorola",
-    jars: ["proprietary/product/framework/WfdCommon.jar"],
-}
-
-dex_import {
 	name: "com.fingerprints.extension",
 	owner: "motorola",
 	jars: ["proprietary/vendor/framework/com.fingerprints.extension.jar"],
